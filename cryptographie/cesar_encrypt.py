@@ -23,4 +23,5 @@ def c_cesar(mot, k):
 #EXEMPLE:
 ph1 = c_cesar("ALEA JACTA EST",3)
 print(ph1)
+
 #SORTIE: DOHD MDFWD HVW
