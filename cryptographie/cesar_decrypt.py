@@ -20,5 +20,7 @@ def d_cesar(crypt, k):
 
     return "".join(phrase_decrypt) #TABLEAU --> CHAR
 
-ph1 = d_cesar("DOHD MDFWD HVW",3)
-print(ph1)
+
+for i in range (26):
+    ph1 = d_cesar(" GVFM MJDFOTF TUSJLF TZTUFN",i)
+    print(ph1)
