@@ -20,5 +20,7 @@ def c_cesar(mot, k):
 
     return "".join(phrase_crypt) #TABLEAU --> CHAR
 
+#EXEMPLE:
 ph1 = c_cesar("ALEA JACTA EST",3)
 print(ph1)
+#SORTIE: DOHD MDFWD HVW
